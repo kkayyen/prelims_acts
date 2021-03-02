@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form Karen Wong</title>
+        <body>
+         <style>
+             label {
+                 width: 150px;
+                 display: inline-block;
+             }
+             input, select{
+                 border: 2px solid rgb(32, 57, 66);
+             }
+         </style>
+        </body>
+    </head>
+    <body>
+	
+        <div>
+            <table>
+                <tr>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="index.html">Home</a></th>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="index.html"><a href="file:///C:/Users/Kay/Desktop/S.Y.%202020-2021%202nd%20Sem/HUMCOM/Exercises/Prelims/Activity6a.html">Activity2</a></th>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="index.html"><a href="file:///C:/Users/Kay/Desktop/S.Y.%202020-2021%202nd%20Sem/HUMCOM/Exercises/Prelims/Activity6b.html">Activity3</a></th>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="index.html"><a href="file:///C:/Users/Kay/Desktop/S.Y.%202020-2021%202nd%20Sem/HUMCOM/Exercises/Prelims/Exercise4b.html">Activity4</a></th>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="file:///C:/Users/Kay/Desktop/S.Y.%202020-2021%202nd%20Sem/HUMCOM/Exercises/Prelims/Exercise5a.html">Activity5</a></th>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="file:///C:/Users/Kay/Desktop/S.Y.%202020-2021%202nd%20Sem/HUMCOM/Exercises/Prelims/Exercise5b.html">Activity6</a></th>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="file:///C:/Users/Kay/Desktop/S.Y.%202020-2021%202nd%20Sem/HUMCOM/Exercises/Prelims/Exercise5c.html">Activity7</a></th>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="file:///C:/Users/Kay/Desktop/S.Y.%202020-2021%202nd%20Sem/HUMCOM/Exercises/Prelims/Exercise7a.html">Activity8</a></th>
+                    <th style="border-style: ridge; background-color: rgb(255, 254, 254);"><a href="file:///C:/Users/Kay/Desktop/S.Y.%202020-2021%202nd%20Sem/HUMCOM/Exercises/Prelims/Exercise8.html">Activity9</a></th>
+                </tr>
+            </table>
+            </div>  
+	
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/University_of_Baguio_textlogo.png" width="20%">
+        <h2 style=text-align:center>Student Profile</h2>
+        <hr><br><br><hr>
+    <form>
+        <label for="snumber">Student Number</label>
+        :<input type="text" id="studnum" name="studnum" pattern="[0-9]" maxlength="12" minlength="5" size="8"><br><br>
+        <label for="sname">Student Name</label>
+        :<input type="text" id="lname" name="lname" placeholder="Last Name">,
+        <input type="text" id="fname" name="ftudname" placeholder="First Name">
+        <input type="text" id="mname" name="mname" placeholder="Middle Name" size="15"><br><br>
+        <label for="cprog">Course/Program</label>
+        :<select id="course" name="course">
+            <option value="ACT">Associate in Computer Technology (ACT)</option>
+            <option value="BSCS">Bachelor of Science in Computer Science (BSCS)</option>
+            <option value="BSIT">Bachelor of Science in Information Technology (BSIT)</option>
+            <option value="BSCE">Bachelor of Science in Computer Engineering (BSCOE)</option>
+            <option value="short">- short courses-</option>
+            <option value="CCENT">Cisco Certified Entry Level (CCENT)</option>
+            <option value="CCNA">Cisco Certified Network Associate (CCNA)</option>
+          </select><br><br>
+        <label for="mobile">Mobile Number</label>
+        :<input type="text" id="mnumber" name="mnumber" placeholder="0-915-123-4567" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" size="13">
+        <label for="email" style="padding-left: 350px;">Email Address</label>
+        :<input type="email" id="eadd" name="eadd" placeholder="humcom123@gmail.com"><br><br>
+        <label for="residence">Residence Address</label>
+        :<input type="text" id="resarea" name="resarea" style="height:80px; width: 250px;">
+        <label for="permanent" style="padding-left: 220px;">Permanent Address</label>
+        :<input type="text" id="padd" name="padd" style="height: 80px; width: 250px;"><br><br>
+        <label for="permanentreg">(Permanent) Region</label>
+        :<select id="course" name="course">
+            <option value="- region -">- region -</option>
+            <option value="NCR">National Capital Region (NCR)</option>
+            <option value="CAR">Cordillera Administrative Region (CAR)</option>
+            <option value="R-I">Ilocos Region (Region I)</option>
+            <option value="R-II">Cagayan Valley (Region II)</option>
+            <option value="R-III">Central LuzoN (Region III)</option>
+            <option value="R-IV-A">Calabarzon (Region IV-A)</option>
+            <option value="STR">Mimaropa (Southwestern Tagalog Region)</option>
+            <option value="R-V">Bicol Region (Region V)</option>
+            <option value="R-VI">Western Visayas (Region VI)</option>
+            <option value="R-VII">Central Visayas (Region VII)</option>
+            <option value="R-VIII">Eastern Visayas (Region VIII)</option>
+            <option value="R-IX">Zamboanga Peninsula (Region IX)</option>
+            <option value="R-X">Northern Mindanao (Region X)</option>
+            <option value="R-XI">Davao Region (Region XI)</option>
+            <option value="R-XII">Soccsksargen (Region XII)</option>
+            <option value="R-XIII">Caraga (Region XIII)</option>
+            <option value="BARMM">Bangsamoro (BARMM)</option>
+          </select><br><br>
+
+        <label for="permanentprov">(Permanent) Province</label>
+        :<select id="permaprov" name="permaprov">
+            <option value="province">- province -</option>
+            <option value="1">Abra</option>
+            <option value="2">Agusan del Norte</option>
+            <option value="3">Agusan del Sur</option>
+            <option value="4">Aklan</option>
+            <option value="5">Albay</option>
+            <option value="6">Antique</option>
+            <option value="7">Apayao</option>
+            <option value="8">Aurora</option>
+            <option value="9">Basilan</option>
+            <option value="10">Bataan</option>
+            <option value="11">Batanes</option>
+            <option value="12">Batangas</option>
+            <option value="13">Benguet</option>
+            <option value="14">Biliran</option>
+            <option value="15">Bohol</option>
+            <option value="16">Bukidnon</option>
+            <option value="17">Bulacan</option>
+            <option value="18">Cagayan</option>
+            <option value="19">Camarines Norte</option>
+            <option value="20">Camarines Sur</option>
+            <option value="21">Camiguin</option>
+            <option value="22">Capiz</option>
+            <option value="23">Catanduanes</option>
+            <option value="24">Cavite</option>
+            <option value="25">Cebu</option>
+            <option value="26">Cotabato</option>
+            <option value="27">Davao de Oro</option>
+            <option value="28">Davao del Norte</option>
+            <option value="29">Davao del Sur</option>
+            <option value="30">Davao Occidental</option>
+            <option value="31">Davao Oriental</option>
+            <option value="32">Dinagat Islands</option>
+            <option value="33">Eastern Samar</option>
+            <option value="34">Guimaras</option>
+            <option value="35">Ifugao</option>
+            <option value="36">Ilocos Norte</option>
+            <option value="37">Ilocos Sur</option>
+            <option value="38">Iloilo</option>
+            <option value="39">Isabela</option>
+            <option value="40">Kalinga</option>
+            <option value="41">La Union</option>
+            <option value="42">Laguna</option>
+            <option value="43">Lanao del Norte</option>
+            <option value="44">Lanao del Sur</option>
+            <option value="45">Leyte</option>
+            <option value="46">Maguindanao</option>
+            <option value="47">Marinduque</option>
+            <option value="48">Masbate</option>
+            <option value="49a">Metro Manila</option>
+            <option value="49">Misamis Occidental</option>
+            <option value="50">Misamis Oriental</option>
+            <option value="51">Mountain Province</option>
+            <option value="52">Negros Occidental</option>
+            <option value="53">Negros Oriental</option>
+            <option value="54">Northern Samar</option>
+            <option value="55">Nueva Ecija</option>
+            <option value="56">Nueva Vizcaya</option>
+            <option value="57">Occidental Mindoro</option>
+            <option value="58">Oriental Mindoro</option>
+            <option value="59">Palawan</option>
+            <option value="60">Pampanga</option>
+            <option value="61">Pangasinan</option>
+            <option value="62">Quezon</option>
+            <option value="63">Quirino</option>
+            <option value="64">Rizal</option>
+            <option value="65">Romblon</option>
+            <option value="66">Samar</option>
+            <option value="67">Sarangani</option>
+            <option value="68">Siquijor</option>
+            <option value="69">Sorsogon</option>
+            <option value="70">South Cotabato</option>
+            <option value="71">Southern Leyte</option>
+            <option value="72">Sultan Kudarat</option>
+            <option value="73">Sulu</option>
+            <option value="74">Surigao del Norte</option>
+            <option value="75">Surigao del Sur</option>
+            <option value="76">Tarlac</option>
+            <option value="77">Tawi-Tawi</option>
+            <option value="78">Zambales</option>
+            <option value="79">Zamboanga del Norte</option>
+            <option value="80">Zamboanga del Sur</option>
+            <option value="81">Zamboanga Sibugay</option>
+          </select><br><br>
+          <label for="permamuni">(Permanent) Municipality</label>
+          :<select id="permamuni" name="permamuni">
+                <option value="municipality">- municipality -</option> 
+            </select><br><br>
+        <label for="telno">Permanent Tel. No.</label>
+            :<input type="text" id="telnumber" name="telnumber" placeholder="445-45-85" pattern="[0-9]{3}-[0-9]{2}-[0-9]{}" size="8"><br><br>
+        <label for="DOB">Date of Birth</label>
+        :<input type="text" id="birthmonth" name="birthmonth" placeholder="Month" size="10">
+        <input type="text" id="birthday" name="birthday" max="2" size="1" placeholder="Day" pattern="[0-9]" maxlength="2" minlength="1">,
+        <input type="" id="birthyear" name="birthyear" max="4" size="5" placeholder="Year" pattern="[0-9]" maxlength="4" minlength="4">
+        <label for="birthplace" style="padding-left: 250px;">Place of Birth</label>
+        :<input type="text" name="POB" id="POB"><br><br>
+        <label for="gender">Gender</label>
+        :<input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <label for="religion" style="padding-left: 130px;">Religion</label>
+        :<select id="religion" name="religion">
+            <option value="rel">- religion -</option>
+            <option value="R1">Roman Catholic</option>
+            <option value="R2">Islam</option>
+            <option value="R3">Seventh-day Adventist</option>
+            <option value="R4">Bible Baptist Church</option>
+            <option value="R5">Jehovah's Witnesses</option>
+            <option value="R6">Born Again</option>
+            <option value="R7">Others</option>
+        </select><br><br>
+        <label for="nation">Nationality</label>
+        :<input type="text" id="national" name="national" placeholder="Filipino">
+        <label for="CS" style="padding-left: 308px;">Civil Status</label>
+        :<select id="civil" name="civil">
+            <option value="civil status">- civil status -</option>
+            <option value="CS1">Single</option>
+            <option value="CS2">Married</option>
+            <option value="CS33">Annulled</option>
+            <option value="CS4">Widowed</option>
+            <option value="CS5">Separated</option>
+            <option value="CS6">Divorced</option>
+            <option value="CS7">Others</option>
+        </select><br><br>
+        
+    </form>
+    <hr>
+    </body>
+</html>
